@@ -1,3 +1,6 @@
 .env
 __pycache__/
 *.pyc
+backups/
+go_links_backup_*.json
+migration_result_*.json
