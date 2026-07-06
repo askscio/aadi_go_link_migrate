@@ -13,7 +13,7 @@ from glean.api_client.errors import GleanError
 logger = logging.getLogger(__name__)
 F = TypeVar("F", bound=Callable[..., Any])
 
-REQUEST_TIMEOUT_MS = 30_000
+REQUEST_TIMEOUT_MS = 40_000
 
 
 def _is_retryable(exc: Exception) -> bool:
