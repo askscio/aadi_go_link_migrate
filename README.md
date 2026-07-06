@@ -13,7 +13,7 @@ Migrate go links (shortcuts) between Glean instances. Export from a source insta
 pip install -r requirements.txt
 ```
 
-## 2. Create API Tokens
+## 2. Create API Tokens With Required Permissions
 
 You need one token per instance. Both require the **SHORTCUTS** scope.
 
